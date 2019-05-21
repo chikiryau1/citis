@@ -56,6 +56,7 @@ def matchMatrix(words, sentences):
     
     return matrix
 
+
 def showResults(vector, words):
     keywords = []
     for i in range(len(vector)):
@@ -88,5 +89,6 @@ def main():
 
     # for i in range(0, 5):
     #     print(s.second())
+
 
 main()
